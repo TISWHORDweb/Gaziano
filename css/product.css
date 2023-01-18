@@ -1,0 +1,285 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.section1 {
+  background-color: white;
+}
+
+.section1 .navbar {
+  padding: 0px 60px;
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+}
+
+.section1 .navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  transition: background-color 1s, padding 1s, transform .5s linear, -webkit-transform .5s linear;
+}
+
+.section1 .navbar ul .top:hover {
+  border-top: 2px solid #ddd1ba;
+}
+
+.section1 .navbar ul li {
+  list-style: none;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  padding: 16px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.section1 .navbar ul li .logo li {
+  margin: 20px;
+}
+
+.section1 .navbar ul li .logo .img {
+  font-size: 90px;
+  margin: 0px;
+}
+
+.section1 .navbar ul li .logo .img a {
+  text-decoration: none;
+  color: #000;
+}
+
+.section1 .navbar ul li .count {
+  position: absolute;
+  background-color: black;
+  padding: 2px 5px;
+  top: 40px;
+  color: white;
+  right: 150px;
+  border-radius: 50%;
+  font-size: 15px;
+}
+
+.section2 {
+  padding: 50px;
+}
+
+.section2 .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section2 .large {
+  padding: 50px;
+}
+
+.section2 .large .long {
+  position: relative;
+  overflow: hidden;
+}
+
+.section2 .large .long img {
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.section2 .large .long img:hover {
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+}
+
+.section2 .text {
+  margin-left: 50px;
+  color: #000;
+}
+
+.section2 .text .up h1 {
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.section2 .text .up h5 {
+  font-size: 20px;
+  margin-top: 7px;
+  font-weight: bold;
+}
+
+.section2 .text .down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+
+.section2 .text .down h1 {
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.section2 .text .down h3 {
+  font-size: 20px;
+  margin-top: 7px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.section2 .text .line {
+  margin-top: 50px;
+}
+
+.section2 .text .line .desc {
+  border-top: 1px solid #ddd1ba;
+  padding: 10px 0px;
+  border-bottom: 1px solid #ddd1ba;
+}
+
+.section2 .text .line .desc .first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section2 .text .line .desc .first p {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.section2 .text .line .desc .first #change {
+  margin-left: 390px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.section2 .text .line .desc .txt {
+  margin-top: 10px;
+  display: none;
+}
+
+.section2 .text .line .desc .txt p {
+  font-weight: 600;
+}
+
+.section2 .text .line .desc .txt .ref {
+  margin-top: 20px;
+}
+
+.section2 .text .line .size p {
+  font-weight: 800;
+  font-size: 15px;
+}
+
+.section2 .text .line .size select {
+  width: 505px;
+  height: 50px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #ddd1ba;
+}
+
+.section2 .text .line .stock select {
+  width: 505px;
+  height: 50px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #ddd1ba;
+}
+
+.section2 .text .line button {
+  width: 510px;
+  margin-top: 40px;
+  background-color: #bba376;
+  padding: 20px 0px;
+  color: white;
+  border: none;
+  outline: none;
+  font-weight: 700;
+}
+
+.section3 {
+  margin-bottom: 50px;
+}
+
+.section3 .txt3 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.section3 .txt3 h1 {
+  font-size: 800;
+}
+
+.section3 .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section3 .row .cell1 {
+  width: 23%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding: 30px;
+  margin: 0px 10px;
+  background-color: #f7f7f7;
+  padding-top: 60px;
+  height: 300px;
+  cursor: pointer;
+  counter-increment: carousel-cell;
+}
+
+.section3 .row .cell1 img {
+  margin-top: 20px;
+}
+
+.section3 .row .cell1:hover .none {
+  display: block;
+}
+
+.section3 .row .cell1:hover h4 {
+  border-bottom: 3px solid #ddd1ba;
+}
+
+.section3 .row .cell1 .none {
+  display: none;
+}
+
+.section3 .row .cell1 h4 {
+  padding-bottom: 10px;
+  width: 190px;
+  margin-left: 50px;
+}
+
+.section3 .row .cell1 .vin {
+  color: grey;
+  font-weight: 700;
+  padding-top: 10px;
+  font-size: 13px;
+}
+
+.section3 .row .cell1 p {
+  color: #000;
+  font-weight: 700;
+  padding-top: 10px;
+  font-size: 15px;
+}
+/*# sourceMappingURL=product.css.map */
